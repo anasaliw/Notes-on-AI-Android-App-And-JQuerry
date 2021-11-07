@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.notes.notes_app">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Notes_app">
+        <activity
+            android:name=".jquerry_chap6"
+            android:exported="false" />
+        <activity
+            android:name=".jquerry_chap5"
+            android:exported="false" />
+        <activity
+            android:name=".jquerry_chap4"
+            android:exported="false" />
+        <activity
+            android:name=".jquerry_chap3"
+            android:exported="false" />
+        <activity
+            android:name=".jquerry_chap2"
+            android:exported="false" />
+        <activity
+            android:name=".jquerry_chap1"
+            android:exported="false" />
+        <activity
+            android:name=".jquerry_course"
+            android:exported="false" />
+        <activity
+            android:name=".dchap9"
+            android:exported="false" />
+        <activity
+            android:name=".dchap8"
+            android:exported="false" />
+        <activity
+            android:name=".dchap7"
+            android:exported="false" />
+        <activity
+            android:name=".dchap6"
+            android:exported="false" />
+        <activity
+            android:name=".dchap5"
+            android:exported="false" />
+        <activity
+            android:name=".dchap4"
+            android:exported="false" />
+        <activity
+            android:name=".dchap3"
+            android:exported="false" />
+        <activity
+            android:name=".dchap2"
+            android:exported="false" />
+        <activity
+            android:name=".dchap1"
+            android:exported="false" />
+        <activity
+            android:name=".discrete_course"
+            android:exported="false" />
+        <activity
+            android:name=".androidchap10"
+            android:exported="false" />
+        <activity
+            android:name=".androidchap9"
+            android:exported="false" />
+        <activity
+            android:name=".androidchap8"
+            android:exported="false" />
+        <activity
+            android:name=".androidchap7"
+            android:exported="false" />
+        <activity
+            android:name=".androidchap6"
+            android:exported="false" />
+        <activity
+            android:name=".androidchap5"
+            android:exported="false" />
+        <activity
+            android:name=".androidchap4"
+            android:exported="false" />
+        <activity
+            android:name=".androidchap3"
+            android:exported="false" />
+        <activity
+            android:name=".androidchap2"
+            android:exported="false" />
+        <activity
+            android:name=".androidchap1"
+            android:exported="false" />
+        <activity
+            android:name=".android_course"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

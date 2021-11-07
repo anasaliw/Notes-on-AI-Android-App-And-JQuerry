@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2B2929"
+    tools:context=".discrete_course">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="409dp"
+        android:layout_height="52dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="4dp"
+        android:background="#ACB7F4"
+        android:fontFamily="cursive"
+        android:text="Artificial Intelligence Course"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#1B1A1A"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/d1"
+        android:layout_width="303dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="28dp"
+        android:background="#C3CBF6"
+        android:text="Chapter 1: What's AI?"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.231"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/d2"
+        android:layout_width="303dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="12dp"
+        android:background="#C3CBF6"
+        android:text="Chapter 2: Human Intelligence"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.231"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/d1" />
+
+    <TextView
+        android:id="@+id/d3"
+        android:layout_width="303dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="12dp"
+        android:background="#C3CBF6"
+        android:text="Chapter 3: History Of Languages"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.231"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/d2" />
+
+    <TextView
+        android:id="@+id/d4"
+        android:layout_width="303dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="12dp"
+        android:background="#C3CBF6"
+        android:text="Chapter 4: History of Numbers"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.231"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/d3" />
+
+    <TextView
+        android:id="@+id/d5"
+        android:layout_width="300dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="12dp"
+        android:background="#C3CBF6"
+        android:text="Chapter 5: History of Computing"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.231"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/d4" />
+
+    <TextView
+        android:id="@+id/d6"
+        android:layout_width="300dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="12dp"
+        android:background="#C3CBF6"
+        android:text="Chapter 6: Robots"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.225"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/d5" />
+
+    <TextView
+        android:id="@+id/d7"
+        android:layout_width="300dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="12dp"
+        android:background="#C3CBF6"
+        android:text="Chapter 7: Job Replacements"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.225"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/d6" />
+
+    <TextView
+        android:id="@+id/d8"
+        android:layout_width="300dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="12dp"
+        android:background="#C3CBF6"
+        android:text="Chapter 8: Examples of AI"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.234"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/d7" />
+
+    <TextView
+        android:id="@+id/d9"
+        android:layout_width="300dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="12dp"
+        android:background="#C3CBF6"
+        android:text="Chapter 9: Programming"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.225"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/d8" />
+</androidx.constraintlayout.widget.ConstraintLayout>
